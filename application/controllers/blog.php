@@ -33,12 +33,27 @@ class Blog extends CI_Controller {
 	
 	function confirm()
 	{
-		$data['title'] = "Are you sure";
-		$data['heading'] = "Buy HELL Ticket";
+
+                //User form data from buy_ticket view
 		$data['raptick'] = $this->input->post();
-		$this->db->insert('tickets', $data['raptick']);
-		
-		$this->load->view('confirm',$data);
+
+
+                //Check to see if user has already signed up for a rapture ticket
+                $already_bought = $this->db->where("email=",$raptick['email']);
+                
+                //If they have bought a ticket, load the cheater page
+                if ($already_bought != []){
+                     $data['title'] = "Blasphemy!";
+		     $data['heading'] = "You have already purchased a rapture ticket!"
+                     $this->load->view('cheater',$data);
+
+                //If they have not purchased a ticket, insert them into the database and show them a confirmation
+                }else{
+		     $data['title'] = "Are you sure";
+		     $data['heading'] = "Buy HELL Ticket"
+                     $this->db->insert('tickets', $data['raptick']);
+	             $this->load->view('confirm',$data);
+                }
 		
 	}
 }

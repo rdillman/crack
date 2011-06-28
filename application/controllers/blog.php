@@ -27,6 +27,7 @@ class Blog extends CI_Controller {
 		$data['heading'] = "Buy Rapture Ticket";
 		
 		$this->load->view('buy_ticket', $data);
+		$this->load->database('tickets');
 		
 	}
 	
@@ -35,8 +36,10 @@ class Blog extends CI_Controller {
 		$data['title'] = "Are you sure";
 		$data['heading'] = "Buy HELL Ticket";
 		$data['raptick'] = $this->input->post();
+		$this->db->insert('tickets', $data['raptick']);
 		
 		$this->load->view('confirm',$data);
+		
 	}
 }
 

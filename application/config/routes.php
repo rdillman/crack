@@ -37,9 +37,11 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-
-$route['default_controller'] = "welcome";
+$route['buy'] = "blog/buy";
+$route['default_controller'] = "blog";
 $route['404_override'] = '';
+$route['ticketform'] = "blog/confirm";
+
 
 
 /* End of file routes.php */

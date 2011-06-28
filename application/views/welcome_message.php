@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Welcome Bitch!</title>
 
 <style type="text/css">
 
@@ -44,8 +44,14 @@ code {
 </style>
 </head>
 <body>
+	
+	
 
-<h1>Welcome to CodeIgniter!</h1>
+
+</body>
+</html>
+
+<!-- <h1>Welcome to Fucker!</h1>
 
 <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
@@ -58,7 +64,4 @@ code {
 <p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 
 
-<p><br />Page rendered in {elapsed_time} seconds</p>
-
-</body>
-</html>
+<p><br />Page rendered in {elapsed_time} seconds</p> -->

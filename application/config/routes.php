@@ -38,9 +38,11 @@
 |
 */
 $route['buy'] = "blog/buy";
+$route['raffle'] = "blog/raffle";
 $route['default_controller'] = "blog";
 $route['404_override'] = '';
 $route['ticketform'] = "blog/confirm";
+$route['raffleform'] = "blog/rafconfirm";
 
 
 

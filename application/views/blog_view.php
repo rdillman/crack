@@ -9,18 +9,9 @@
 	<?php echo $heading; ?>
 </h1>
 
-<?php print( '<a href="buy"> BUY </a>'); ?>
-	
-<!-- <ul>
-		<?php foreach ($query->results() as $row): ?>
-		
-		<h3><php? $row->title ?></h3>
-		<p><php? $row->body ?></p>
-		
-		<hr>
-		
-		<?php endforeach; ?>
-</ul> -->
+	<?php print( '<a href="buy"> BUY </a>'); ?>
+	<br>
+	<?php print( '<a href="raffle"> RAFFLE </a>'); ?>
 	
 	
 </body>

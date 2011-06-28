@@ -3,5 +3,5 @@ RewriteEngine on
 RewriteCond $1 ^(images|css|js)
 RewriteRule ^(.*)$ /support/$1 [L]
 
-RewriteCond $1 !^(index\.php|images|robots\.txt|support)
+RewriteCond $1 !^(index\.php|images|robots\.txt|support|css)
 RewriteRule ^(.*)$ /index.php/$1 [L]

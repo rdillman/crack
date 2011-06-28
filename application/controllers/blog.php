@@ -44,7 +44,7 @@ class Blog extends CI_Controller {
                 //If they have bought a ticket, load the cheater page
                 if ($already_bought != []){
                      $data['title'] = "Blasphemy!";
-		     $data['heading'] = "You have already purchased a rapture ticket!"
+		     $data['heading'] = "You have already purchased a rapture ticket!";
                      $this->load->view('cheater',$data);
 
                 //If they have not purchased a ticket, insert them into the database and show them a confirmation

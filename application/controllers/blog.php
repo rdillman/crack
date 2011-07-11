@@ -9,6 +9,7 @@ class Blog extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->helper('form');
 		$this->load->helper('html');
+		$this->load->helper('date');
 		
 		}
 	
@@ -16,6 +17,8 @@ class Blog extends CI_Controller {
 	{
 		$data['title'] = "Rapture Tickets";
 		$data['heading'] = "Save Yourself!";
+
+		
 		// $data['buy'] = 
 						
 		$this ->load->view('blog_view', $data); 

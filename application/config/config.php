@@ -14,7 +14,17 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/ci/';
+$config['base_url']	= 'http://crackdev.dev/';
+
+/* Default timestamp!
+
+base_url()
+
+*/
+
+date_default_timezone_set('UTC');
+
+
 
 /*
 |--------------------------------------------------------------------------

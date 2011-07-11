@@ -1,1 +1,38 @@
 /* test */
+
+
+.main_buy{
+	float: left;
+	font-size: 4em;
+}
+
+.main_raffel{
+	float:right;
+	font-size: 4em;
+}
+
+h1{
+	text-align: center;
+}
+
+#days{
+	text-align: center;
+	font-size: 40px;
+}
+
+.angel{
+	text-align: center;
+	/*width: 400px;*/
+	display: inline;
+	margin-left: 10px;
+	height: auto;
+}
+
+.demon{
+	text-align: center;
+	/*width: 400px;*/
+	display: inline;
+	margin-left: 140px;
+		/*margin: auto;*/
+	height: auto;
+}

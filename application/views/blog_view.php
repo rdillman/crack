@@ -25,19 +25,20 @@
 
 	<!-- # Angel Picture -->
 	<div class="angel">
-		<?php echo img(base_url() . 'images/prayer.jpg', TRUE); ?>
+		<?php echo img(base_url() . 'images/prayer.gif', TRUE); ?>
 	</div>
 	<div class="demon">
-		<?php echo img(base_url() . 'images/demon.jpg', TRUE); ?>
+		<?php echo img(base_url() . 'images/demon.gif', TRUE); ?>
 	</div>
 
 	<!-- # Links to Buy / Raffel	 -->
 	<div class="main_buy">
-		<?php print( '<a href="buy"> BUY </a>'); ?>
+		<!-- <a href="<?php site_url('buy_ticket')?>">Buy</a> -->
+		<a href="<?php echo site_url('buy')?>">Buy</a>
 	</div>
 
 	<div class="main_raffel">
-		<?php print( '<a href="raffle"> RAFFLE </a>'); ?>
+		<a href="<?php echo site_url('raffle')?>">Raffle</a>
 	</div>
 	
 </body>

@@ -1,4 +1,4 @@
-http://localhost/index.php/images/grownups.png<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
 | MIME TYPES

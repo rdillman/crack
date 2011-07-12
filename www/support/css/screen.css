@@ -11,8 +11,28 @@
 	font-size: 4em;
 }
 
+body{
+	background-image: url("/images/clouds.jpg");
+	width: 100%;
+	height: auto;
+	backgorund
+}
+
 h1{
 	text-align: center;
+	background-color: #98F5FF;
+	width:400px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	margin: auto;
+	padding: 0;
+	height: 50px;
+	vertical-align: center;
+	border: 0px solid #98F5FF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: -moz-linear-gradient(center bottom, #98F5FF 40%, #FFE631 100%);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.4, #98F5FF),color-stop(1, #FFE631));
 }
 
 #days{
@@ -24,7 +44,7 @@ h1{
 	text-align: center;
 	/*width: 400px;*/
 	display: inline;
-	margin-left: 10px;
+	margin-left: 50px;
 	height: auto;
 }
 
@@ -32,7 +52,11 @@ h1{
 	text-align: center;
 	/*width: 400px;*/
 	display: inline;
-	margin-left: 140px;
+	margin-left: 190px;
 		/*margin: auto;*/
 	height: auto;
+}
+
+.buy_form{
+	float:center;
 }
